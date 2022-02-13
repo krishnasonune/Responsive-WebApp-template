@@ -1,0 +1,449 @@
+.nav {
+    background: rgba(0,0,0,0.9);
+   overflow:hidden;
+    width:100%;
+}
+
+h1 {
+    text-align:center;
+    color:white;
+}
+
+.nav a {
+  text-align: center;
+  float: left;
+  padding: 3vh;
+  color: white;
+  text-decoration:none;
+  font-size: 17px;
+}
+
+.nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+.nav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+body {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  overflow-y: scroll;
+  background-color: darkslategrey;
+  background-image: url('https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+ 
+  text-align: center;
+  color: rgb(216 84 17);
+  text-shadow: 4px 5px 2px black;
+  font-size: 6vh;
+}
+
+.align {
+  text-align: center;
+  margin-top: 20vh;
+}
+
+
+textarea {
+  border-radius: 8vh;
+  text-align: center;
+  justify-items: center;
+  padding: 4vh 4vh 4vh 4vh;
+  align-items: center;
+  font-size: 17px;
+  width: 70%;
+  background: rgba(0,0,0,0.8);
+  color: white;
+  margin-bottom: 5vh;
+}
+
+
+
+
+button {
+  height: 8vh;
+  width: 15%;
+  border-radius: 4vh;
+  border-color: black;
+  color: white;
+  background-color: black;
+  transition: 0.4s ease-in-out;
+  font-weight: 800;
+  font-size: 3.5vh;
+}
+
+  button:hover {
+    transform: scale(1.3);
+    color: white;
+    background: rgba(0,0,0,0.7);
+  }
+
+
+
+@media only screen and (min-width: 0px) and (max-width: 360px) {
+  .nav {
+    background: rgba(0,0,0,0.7);
+    overflow: hidden;
+    width: 100%;
+  }
+
+  
+
+  .nav a {
+    text-align: center;
+    float: left;
+    padding: 2vh;
+    color: white;
+    text-decoration: none;
+    font-size: 4vh;
+  }
+
+    .nav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
+    
+    .nav a.active {
+      background-color: #04AA6D;
+      color: white;
+    }
+
+  body {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+    background-color: darkslategrey;
+    background-image: url('https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  h1 {
+    text-align: center;
+    color: rgb(216 84 17);
+    text-shadow: 4px 5px 2px black;
+    font-size: 7vh;
+  }
+
+  .align {
+    text-align: center;
+    margin-top: 20vh;
+  }
+
+  textarea {
+      
+      border-radius:6vh;
+      text-align:center;
+      justify-items:center;
+      padding:4vh 4vh 4vh 4vh;
+      align-items:center;
+      width: 70%;
+      font-size:17px;
+      background:rgba(0,0,0,0.8);
+      color:white;
+      margin-bottom:5vh;
+  }
+
+
+  button {
+    height: 8vh;
+    width: 30%;
+    border-radius: 4vh;
+    border-color: black;
+    color: white;
+    background-color: black;
+    transition: 0.4s ease-in-out;
+    font-weight: 800;
+    font-size: 2.5vh;
+  }
+
+    button:hover {
+      transform: scale(1.2);
+      color: white;
+      background: rgba(0,0,0,0.7);
+    }
+
+}
+
+
+
+
+@media only screen and (min-width: 360px) and (max-width: 720px) {
+  .nav {
+    background: rgba(0,0,0,0.7);
+    overflow: hidden;
+    width: 100%;
+  }
+
+
+
+    .nav a {
+      text-align: center;
+      float: left;
+      padding: 2vh;
+      color: white;
+      text-decoration: none;
+      font-size: 4vh;
+    }
+
+      .nav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+
+      
+      .nav a.active {
+        background-color: #04AA6D;
+        color: white;
+      }
+
+  body {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+    background-color: darkslategrey;
+    background-image: url('https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  h1 {
+    text-align: center;
+    color: rgb(216 84 17);
+    text-shadow: 4px 5px 2px black;
+    font-size: 7vh;
+  }
+
+  .align {
+    text-align: center;
+    margin-top: 20vh;
+  }
+
+  textarea {
+    border-radius: 6vh;
+    text-align: center;
+    
+    padding: 4vh 4vh 4vh 4vh;
+    
+    width: 70%;
+    font-size: 17px;
+    background: rgba(0,0,0,0.8);
+    color: white;
+    margin-bottom: 5vh;
+  }
+
+
+  button {
+    height: 8vh;
+    width: 30%;
+    border-radius: 4vh;
+    border-color: black;
+    color: white;
+    background-color: black;
+    transition: 0.4s ease-in-out;
+    font-weight: 800;
+    font-size: 2.7vh;
+  }
+
+    button:hover {
+      transform: scale(1.2);
+      color: white;
+      background: rgba(0,0,0,0.7);
+    }
+}
+
+
+
+
+
+@media only screen and (min-width: 720px) and (max-width: 1000px) {
+  .nav {
+    background: rgba(0,0,0,0.7);
+    overflow: hidden;
+    width: 100%;
+  }
+
+
+
+    .nav a {
+      text-align: center;
+      float: left;
+      padding: 2vh;
+      color: white;
+      text-decoration: none;
+      font-size: 4vh;
+    }
+
+      .nav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+
+      
+      .nav a.active {
+        background-color: #04AA6D;
+        color: white;
+      }
+
+  body {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+    background-color: darkslategrey;
+    background-image: url('https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  h1 {
+    text-align: center;
+    color: rgb(216 84 17);
+    text-shadow: 4px 5px 2px black;
+    font-size: 7vh;
+  }
+
+  .align {
+    text-align: center;
+    margin-top: 20vh;
+  }
+
+  textarea {
+    border-radius: 6vh;
+    text-align: center;
+    padding: 4vh 4vh 4vh 4vh;
+    width: 80%;
+    font-size: 20px;
+    background: rgba(0,0,0,0.8);
+    color: white;
+    margin-bottom: 5vh;
+  }
+
+
+  button {
+    height: 8vh;
+    width: 20%;
+    border-radius: 4vh;
+    border-color: black;
+    color: white;
+    background-color: black;
+    transition: 0.4s ease-in-out;
+    font-weight: 800;
+    font-size: 2.7vh;
+  }
+
+    button:hover {
+      transform: scale(1.2);
+      color: white;
+      background: rgba(0,0,0,0.7);
+    }
+}
+
+
+
+
+@media only screen and (min-width: 1000px) {
+  .nav {
+    background: rgba(0,0,0,0.7);
+    overflow: hidden;
+    width: 100%;
+  }
+
+
+
+    .nav a {
+      text-align: center;
+      float: left;
+      padding: 2vh;
+      color: white;
+      text-decoration: none;
+      font-size: 3vh;
+    }
+
+      .nav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+
+      
+      .nav a.active {
+        background-color: #04AA6D;
+        color: white;
+      }
+
+  body {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+    background-color: darkslategrey;
+    background-image: url('https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  h1 {
+    text-align: center;
+    color: rgb(216 84 17);
+    text-shadow: 4px 5px 2px black;
+    font-size: 7vh;
+  }
+
+  .align {
+    text-align: center;
+    margin-top: 20vh;
+  }
+
+  textarea {
+    border-radius: 6vh;
+    text-align: center;
+    padding: 4vh 4vh 4vh 4vh;
+    width: 85%;
+    font-size: 22px;
+    background: rgba(0,0,0,0.8);
+    color: white;
+    margin-bottom: 5vh;
+  }
+
+
+  button {
+    height: 8vh;
+    width: 15%;
+    border-radius: 4vh;
+    border-color: black;
+    color: white;
+    background-color: black;
+    transition: 0.4s ease-in-out;
+    font-weight: 800;
+    font-size: 2.7vh;
+  }
+
+    button:hover {
+      transform: scale(1.2);
+      color: white;
+      background: rgba(0,0,0,0.7);
+    }
+}
+
+
+
+
+
